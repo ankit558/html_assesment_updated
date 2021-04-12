@@ -2,12 +2,12 @@
 <html>
 <head>
 	<title>Template</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <script src="./js/swap.js"></script>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+    <script src="./js/change_image_in_first_design.js"></script>
+
 </head>
 
-<body>
-
+<body onload = "startTime()">
 <header> 
  <nav>
  	<label class="logo">UPPER</label>
@@ -28,25 +28,26 @@
 
 <content>
 	<div class="img-area">
-
-            <div class="single-img"><img id="img1" onclick="swap()" src="images/fleximg1.jpg">
+        <div = changeImage()></div>
+            <div class="single-img"><img id="img" src="images/fleximg1.jpg">
             <div id="text">Image One</div> 
             </div>
             
-            <div class="single-img"><img id="img2" onclick="swapImage()" src="images/fleximg2.jpg">
+            <div class="single-img"><img src="images/fleximg2.jpg">
             <div id="text"> Image Two</h1>
             </div>
             </div>
 
-            <div class="single-img"><img id="img3" src="images/fleximg3.jpg">
+            <div class="single-img"><img src="images/fleximg3.jpg">
             <div id="text"> Image Third</h1>
             </div>
             </div>
            
-            <div class="single-img"><img id="img4" src="images/fleximg4.jpg">
+            <div class="single-img"><img src="images/fleximg4.jpg">
             <div id="text"> Image Four</h1>
             </div>
             </div>
+
     </div>
 
 <footer class="footer">

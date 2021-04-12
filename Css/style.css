@@ -61,14 +61,14 @@ li:hover{
 
 }
 .single-img{
-	padding:0 13px 14px;
+	padding:0 15px 14px;
 	box-sizing:border-box;
 	font-size: 20px;
 	color:#d0d0d0;
 	height: 300px;
 }
 
-#img{
+#img1 , #img3{
 	height:178px;
 	width:300px;
 }
