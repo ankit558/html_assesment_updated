@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>Template</title>
-	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./js/swap.js"></script>
 </head>
 
 <body>
+
 <header> 
  <nav>
  	<label class="logo">UPPER</label>
@@ -16,7 +18,7 @@
  		<li><a>Third Grid</a></li>
  		<li><a>About us</a></li>
  		<li><a>Contact</a></li>
-	 	</li>
+    	</li>
  	</ul>
  </nav>
 </header>
@@ -25,13 +27,13 @@
 	<p>Curabitur quis tellus sed orci rhoncus fer mentum. Praesent sollicitudin scelerisque nunc<br/> et vehicula. Sed ex magna, elementum ut volutpat ut, vehicula quis metus</p><br/>
 
 <content>
-
 	<div class="img-area">
-    <div = changeImage()></div>
-            <div class="single-img"><img id="img" src="images/fleximg1.jpg">
+
+            <div class="single-img"><img id="img1" onclick="swap()" src="images/fleximg1.jpg">
             <div id="text">Image One</div> 
             </div>
-            <div class="single-img"><img id="img2" src="images/fleximg2.jpg">
+            
+            <div class="single-img"><img id="img2" onclick="swapImage()" src="images/fleximg2.jpg">
             <div id="text"> Image Two</h1>
             </div>
             </div>
@@ -46,14 +48,6 @@
             </div>
             </div>
     </div>
-
-</content>
-    <div class = "favicon">
-            <img src= "images/fb.jpg">
-            <img src= "images/twitter.jpg">
-            <img src= "images/gplus.jpg">
-            <img src= "images/li.jpg">
-      </div>
 
 <footer class="footer">
   <h2>Copyright &copy 2021 Your Company - design Template</h2>
