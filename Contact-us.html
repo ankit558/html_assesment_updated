@@ -1,7 +1,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="Css/contact1.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./js/validation.js"></script>
         </head>
     <body>
@@ -22,7 +21,7 @@
         <section>
             <div><h2>Contact Us</h2><p>Praesent tempus dapibus odio nec elementum.Sed elementum est quis tortor faucibus,et molestile nibh finibus.Mauris condimentum ex vestibulum fringilla consectetur</p>
            
-            <form id="inputform">
+            <form id="inputform" onsubmit= "return valid()">
                 <div id="div_error"></div>
                 <input type="text" id="name" placeholder="Name"><br/>
                 <div class="email">
