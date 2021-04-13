@@ -2,7 +2,7 @@
 	        {
 	            $('#submit').click(function() 
 	            {
-	                var firstname = $('#name').val();
+	                var name = $('#name').val();
 	                var email = $('#email').val();
 	                var comment = $('#comment').val();
 	                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
