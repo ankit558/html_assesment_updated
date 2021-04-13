@@ -19,4 +19,4 @@
                     {
                         alert("Enter a valid Email Address")
                     }                
-            }
+	    }
