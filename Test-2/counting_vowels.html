@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+        <script type="text/javascript">
+                var vowels = ["a", "e", "i", "o", "u"]
+                function countVowel(str) 
+                {
+                var count = 0;
+                    for (var letter of str.toLowerCase()) 
+                    {
+                        if (vowels.includes(letter)) 
+                        {
+                        count++;
+                        }
+                    }
+                    return count
+                }
+                var string = prompt('Give any string: ');
+                var result = countVowel(string);
+                document.write("vowels are in the given string :" + result);
+        </script>
+</head>
+<body>
+
+</body>
+</html>
