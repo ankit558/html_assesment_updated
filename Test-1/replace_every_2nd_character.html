@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>replacing every second character of string</title>
+    </head>
+    <body>
+        <script>
+            var str = prompt("enter a string:");
+            str=str.split('');
+            for (var i = 0; i <str.length; i++) {
+                if(i%2!=0)
+                {
+                    str[i] = "Z";
+                }
+            }
+            document.write(str.join("")+"<br>");
+        </script>
+    </body>
+</html>

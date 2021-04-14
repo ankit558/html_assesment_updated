@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>guessing a four digit pin</title>
+    </head>
+    <body>
+        <script>
+            const p=9057;
+            var pin=prompt("please make your guess:");
+            for(var i=1;i<=3;i++)
+            {
+                if(p==pin)
+                {
+                    document.write("That was correct!"+"<br>");
+                    break;
+                }
+                else
+                {
+                    alert("Sorry that was wrong.");
+                    prompt("please make your guess:");
+                }
+            }
+        </script>
+    </body>
+</html>
