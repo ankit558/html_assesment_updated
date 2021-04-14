@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>sum of two array</title>
+        <script>
+            function arraySum(arr1,arr2)
+            {
+            var res=[];
+            for(var i=0;i<=arr1.length;i++)
+            {
+                res[i]=arr1[i]+arr2[i];
+            }
+            return res;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            var res;
+            var arr1=[1,2,3,4,5];
+            var arr2=[5,10,15,20,25];
+            document.write("array1:",arr1+"</br>");
+            document.write("array1:",arr2+"</br>");
+            res=arraySum(arr1,arr2);
+            document.write("Sum of Arrays :"+res+"<br>");
+        </script>
+    </body>
+</html>

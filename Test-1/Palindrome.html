@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>checking if string is palindrome or not</title>
+    </head>
+    <body>
+        <script>
+            function checkPalindrome(str) {
+                const len = string.length;
+ 
+                for (let i = 0; i < len / 2; i++) {
+                    if (string[i] !== string[len - 1 - i]) {
+                        return 'No';
+                    }
+                }
+                return 'Yes';
+            }
+            const string = prompt('Enter a string: ');
+            const value = checkPalindrome(string);
+            document.write(value+"<br>");
+        </script>
+    </body>
+</html>
